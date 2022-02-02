@@ -43,9 +43,9 @@ Route::get('/products', [ProductController::class,'index']);
 // Route::resource('products', ProductController::class);
 Route::get('/products/search/{name}', [ProductController::class,'search']);
 
-Route::post('/products',[ProductController::class,'store']);
-Route::put('/products/{id}',[ProductController::class,'update']);
-Route::delete('/products/{id}',[ProductController::class,'destroy']);
+// Route::post('/products',[ProductController::class,'store']);
+// Route::put('/products/{id}',[ProductController::class,'update']);
+// Route::delete('/products/{id}',[ProductController::class,'destroy']);
 
 //Protected routes-Only authenticated users can have access to protected routes//
 Route::group(['middleware' => ['auth:sanctum']], function () {
@@ -56,3 +56,5 @@ Route::group(['middleware' => ['auth:sanctum']], function () {
 });
 
 Route::post('/register',[AuthController::class,'register']);
+
+Route::post('/login', [AuthController::class, 'login']);
