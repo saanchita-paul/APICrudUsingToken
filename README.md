@@ -18,6 +18,8 @@ Sanctum will only attempt to authenticate using cookies when the incoming reques
 
 ``` https://laravel.com/docs/8.x/sanctum#how-it-works-spa-authentication ```
 
-Followed this tutorial as well 
+Followed these tutorial as well 
 
 ``` https://dev.to/tanzimibthesam/making-api-crud-create-read-update-delete-with-laravel-8-n-api-authentication-with-sanctum-19oh ```
+
+``` https://www.twilio.com/blog/build-restful-api-php-laravel-sanctum ```
