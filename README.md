@@ -17,6 +17,7 @@ For this feature, Sanctum does not use tokens of any kind. Instead, Sanctum uses
 Sanctum will only attempt to authenticate using cookies when the incoming request originates from your own SPA frontend. When Sanctum examines an incoming HTTP request, it will first check for an authentication cookie and, if none is present, Sanctum will then examine the Authorization header for a valid API token.
 
 ``` https://laravel.com/docs/8.x/sanctum#how-it-works-spa-authentication ```
+
 Followed this tutorial as well 
 
 ``` https://dev.to/tanzimibthesam/making-api-crud-create-read-update-delete-with-laravel-8-n-api-authentication-with-sanctum-19oh ```
